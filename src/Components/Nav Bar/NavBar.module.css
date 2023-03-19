@@ -1,0 +1,16 @@
+.NavContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: transparent;
+  padding: 0.7rem;
+  font-size: larger;
+}
+
+.NavListContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: larger;
+}

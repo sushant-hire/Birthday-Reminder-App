@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.MainRegistrationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2.5rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.DropdownContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.DropdownSelect {
+  width: 8rem;
+  height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+
+.InputBox {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.CustomButton {
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.ProfilePhoto {
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+  left: 38%;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.BirthdayText {
+  text-align: left;
+  margin-left: 0.2rem;
+  font-size: 0.95rem;
+}
+
+.BirthdayInputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.BirthdayInput {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+}
